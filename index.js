@@ -4,3 +4,10 @@ var position = katzDeliLine.length+1
 return "Welcome, " + name +". You are number "+ position +" in line."
 
 }
+
+function nowServing (deliLine){
+var name;
+
+if(deliLine.length == 0){
+  return "There is nobody waiting to be served!"
+}
